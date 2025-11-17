@@ -1,0 +1,81 @@
+* {
+  font-family: sans-serif;
+  background: fund.jpg;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/32416399/pexels-photo-32416399.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#barraLateral {
+  height: 1590px;
+  width: 250px;
+  background-color: #919191;
+  color: white;
+  padding: 20px;
+  margin-left: -10px;
+  margin-top: -25px;
+  position: fixed;
+}
+
+#barraLateral img {
+  width: 300px;
+  margin-left: -25px;
+}
+
+#barraLateral a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #737373;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#barraLateral a:hover {
+  background-color: white;
+  color: #343434;
+  transition: 0.3s;
+}
+
+.promessas {
+  background-color: #353535;
+  width: 250px;
+  margin-top: 150px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.promessas img {
+  width: 200px;
+  border-radius: 10px;
+  margin-left: 15px;
+  padding: 10px;
+  height: 150px;
+}
+
+#craques h1 {
+  margin-left: 200px;
+}
+
+#craques {
+  margin-left: 300px;
+}
+
+.nome h3 {
+  background-color: white;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+.textocrq{
+  text-decoration: none;
+  color: black;
+}

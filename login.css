@@ -1,0 +1,80 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/18117557/pexels-photo-18117557.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#barraLateral {
+  height: 1590px;
+  width: 250px;
+  background-color: #919191;
+  color: white;
+  padding: 20px;
+  margin-left: -10px;
+  margin-top: -105px;
+  position: fixed;
+}
+
+#barraLateral img {
+  width: 300px;
+  margin-left: -25px;
+}
+
+#barraLateral a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #737373;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#barraLateral a:hover {
+  background-color: white;
+  color: #343434;
+  transition: 0.3s;
+}
+
+#login {
+  padding: 30px;
+  border-radius: 10px;
+  width: 600px;
+  margin-left: 700px;
+  margin-top: 100px;
+}
+
+#login h2 {
+  text-align: center;
+  color: #333;
+}
+
+#login button {
+  width: 575px;
+  padding: 10px;
+  background: #656565;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+#login button:hover {
+  background: #363636;
+  transition: 0.3s;
+}
+
+#login input {
+  width: 92%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
